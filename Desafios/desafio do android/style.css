@@ -1,0 +1,84 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "AVG";
+    src: url(fonte/AVENGEANCE.OTF.otf)format(opentype);
+    font-weight: normal;
+    font-size: normal;
+}
+#principal{
+    background-color: black;
+    color: #f5e201;
+    font-family: "AVG",Arial, Helvetica, sans-serif;
+    text-indent: justify;
+
+}
+
+body{
+    font: normal 16px arial, verdana, serif;
+    text-align: left;
+    text-indent: justify;
+}
+article > h1{
+    text-indent: 30px;
+
+}
+article > p{
+    text-align: justify;
+    text-indent: 10px;
+}
+body{
+    background-image: linear-gradient(to bottom,black,#2C4001);
+}
+main{
+    border-radius: 10px;
+    margin: 30px;
+    background-color: white;
+    padding: 5px;
+    margin-top:5px;
+    border: 2px groove #F2CB05;
+}
+header{
+    border-radius: 5px;
+    padding: 10px;
+    background-image: linear-gradient(to top,black, #2C4001);
+    border: 1px groove #F2CB05;
+    margin: auto;
+
+}
+.secundario{
+    color: #F2CB05;
+}
+a{
+  padding: 5px;
+   text-decoration: none;
+   color: #F2CB05;
+   margin-right: 10px;
+   
+}
+footer{
+    text-align: right;
+}
+.image{
+    text-align: center;
+}
+h1{
+    background-color: black;
+    color: #F2B705;
+}
+a:hover{
+    color: white;
+    background-color: #F29F05;
+}
+.rodape{
+    text-align: center;
+    background-color: black;
+}
+.cabeçalho{
+
+}
+aside{
+    text-align: right;
+}
+.primaria{
+    text-decoration: none;
+}
