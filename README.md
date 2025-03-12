@@ -5,4 +5,4 @@
 
  <a href="https://emanuel1811.github.io/html-css/exercicios/ex002/index.html">Executar exercicio</a>
 
- não sei oque está havendo 
+ Compicado esse Github
