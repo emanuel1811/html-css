@@ -20,9 +20,23 @@
             background-color: black;
             color: white;
         }
+        tbody> tr:nth-child(even){
+            background-color: black;
+            color: white;
+        }
+        tbody> tr:nth-child(odd) /*pseudo classe efeito zebrado*/
+        {
+            background-color: rgba(9, 9, 243, 0.826);
+        }
         tfoot{
             background-color: black;
             color: white;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgb(18, 18, 169);
         }
         .num{
             text-align: right;
@@ -34,6 +48,7 @@
     <!--
     Anatomia para TABELAS GRANDES
         TABLE
+            CAPITION (LEGENDA)
             THEAD
                 TR, TD, TH
             TBODY
@@ -42,10 +57,11 @@
                 TR, TD, TH        
     -->
    <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <TH>Estado</TH>
-                <th>População</th>
+                <TH scope="col">Estado</TH>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
 
         </thead>
@@ -183,7 +199,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>212 583 750</strong></td>
             </tr>
 
