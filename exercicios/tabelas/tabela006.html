@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 8px;
+        }
+        th,td{
+            border: 1px groove black;
+            text-align: center;}
+        .preto{
+            background-color: black;
+            color: white;
+        }
+        .idade{
+            color: white;
+        }
+        #nome{
+            color: white
+        }
+        #idade{
+            color: white;
+        }
+
+      
+     
+    </style>
+</head>
+<body>
+    <h1> Exercício de tabela</h1>
+    <table>
+        <colgroup>
+        <col class="preto">
+        <col class="branco">
+        <col class="preto">
+        <col class="branco">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col" id="nome">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col" class="idade">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td  id="nome"id="nome">Ana Maria</td>
+            <td>F</td> 
+            <td id="idade">25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td id="nome">Cláudio</td>
+            <td>M</td>
+            <td id="idade">28</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td id="nome">Gustavo</td>
+            <td>M</td>
+            <td id="idade">19</td>
+            <td>vendedor</td>
+        </tr>
+        <tr>
+            <td id="nome">Hélio</td>
+            <td>M </td>
+            <td id="idade">19</td>
+            <td>vendedor</td>
+        </tr>
+        <tr>
+            <td id="nome">Maria</td>
+            <td>f</td>
+            <td id="idade">39</td>
+            <td>Médica</td>
+        </tr>
+        <tr>
+            <td id="nome">Otávio</td>
+            <td>M</td>
+            <td id="idade">22</td>
+            <td>Nutricionista</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
