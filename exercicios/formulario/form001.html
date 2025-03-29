@@ -12,7 +12,7 @@
 </head>
 <body>
     <h1>Meu primeiro formulario </h1>
-    <form action="cadastro.php" autocomplete="off"> <!--Tira preencher automatico, o parêmetro action enviar esses dados pra alguma linguagem de banco de dados-->
+    <form action="cadastro.php" method="post" autocomplete="off"> <!--Tira preencher automatico, o parêmetro action enviar esses dados pra alguma linguagem de banco de dados-->
         <p><label for="nome">Nome:</label> 
             <input type="text" name="nome" id="nome"></p>
         <p><label for="sobrenome">Sobrenome :</label>
@@ -21,5 +21,11 @@
     </form>
     <!--Apredemos também a importancia das (Label) que são etiquetas que relacionam os termos de um formuçário com os input´s dele-->
     <!--Iremos usar sempre o ID para indicar no parametro For da label-->
+    <!--
+    Metodos de envios de formulário
+    O método padrão de enviou de formulário e o Get(que permite que as informções do furmulário sejam vistas na URL)
+    Já no metodo Post essas informções nao ficam visiveis nas URL, mas ainda sim não se encontram seguras 
+    Get so pode enviar ate 3mil Bytes, se ultrupassar essa quantidade não é viavel 
+    -->
 </body>
 </html>
