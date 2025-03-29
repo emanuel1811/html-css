@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h1>Teste de Fomulário</h1>
+    <form autocomplete="off" action="cadastro.php" method="post">
+        <p>
+            <label for="iusu">Usuário:</label>
+            <input type="text" name="usu" id="iusu" size="8" placeholder="seu papai"><!--tamanho da caixa e dica-->
+        </p>
+        <p>
+            <label for="isen">Senha:</label>
+            <input type="password" name="sen" id="isen" required minlength="5" max="10" size="8"> <!--requerido(obrigatorio)-->
+        </p>
+        <!--Input type password para senha-->
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar" required>
+        </p>
+<!--com os paramêtros Minlength e Maxlength conseguimos estabelecer os minimo e o maximo de caracteres para nosso usuario e senha -->
+
+    </form>
+</body>
+</html>
