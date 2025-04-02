@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="iest">Estado</label>
+            <select name="estado" id="iest">
+                <option value=""selected>--escolha--</option>></option>
+
+
+
+                <optgroup label="Região Sudeste">
+                    <option value="MG" >Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+
+                <optgroup label="Região da fome">
+                    <option value="MA">Maranhão</option>
+                    <option value="PE">Pernanbuco</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                </optgroup>
+
+            </select>
+
+
+            <!--A  tag Select nos dará opções em lista ja pronta ao clicar na opção do formulário 
+            Usando a tag de agrupamento de optiongroup podemos usar o elemento Label para atribuir agrupamento ao fumulario -->
+        </p>
+        <p>
+
+            <label for="profissão">Profissão:</label>
+            <input type="text" name="prof" id="prof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="ADM"Adiministrador></option>
+                <option value="CONT">Contabilista</option>
+                <option value="Dev">Desenvolverdor</option>
+                <option value="Prof">Professor</option>
+            </datalist>
+        </p>
+
+
+       
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="limpar">
+        </p> 
+    </form>
+</body>
+</html>
