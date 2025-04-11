@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/*Estilos para impressoras*/
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+menu{  /*nao exibir menu na tela de impressão*/
+    display: none;
+}
+
+article::after{
+    content: 'Esse artigo foi impresso através de um estudo';
+}
+article{
+    width: 100%;
+}
